@@ -1,4 +1,5 @@
 import PT from 'prop-types';
+//comment
 import { TitleStyled } from '../Section/Section.styled';
 
 const Section = ({ title, children }) => {
