@@ -8,7 +8,7 @@ export const BoxStyled = styled.div`
 export const BtnStyled = styled.button`
   padding: 10px;
   text-align: center;
-  font-size: 20px;
+  font-size: 22px;
   background-color: #cfc5c5;
   border-radius: 10px;
   cursor: pointer;
