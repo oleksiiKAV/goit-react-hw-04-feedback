@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { Statistics, FeedbackOptions, Section } from '../components';
+import { Statistics, FeedbackOptions, Section} from '../components';
+import  NoBack  from './NoBack/NoBack';
 
 const App = () => {
   const [form, setForm] = useState({
@@ -40,7 +41,7 @@ const App = () => {
       </Section>
       <Section title="Statistics">
         {sum === 0 ? (
-          <p>There is no feedback</p>
+          <NoBack />
         ) : (
           <Statistics
             Good={form.good}
